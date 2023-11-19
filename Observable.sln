@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Observable", "Source\Observable.vcxproj", "{2B85AF97-09F5-44D4-855F-7B6F01F9615B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Observable_UTest", "Test\Observable_UTest\Observable_UTest.vcxproj", "{EE2E3E8F-ABE1-4E4F-ACB8-3AFEBD470ED5}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -20,13 +18,5 @@ Global
 		{2B85AF97-09F5-44D4-855F-7B6F01F9615B}.Release|Win32.Build.0 = Release|Win32
 		{2B85AF97-09F5-44D4-855F-7B6F01F9615B}.Release|x64.ActiveCfg = Release|x64
 		{2B85AF97-09F5-44D4-855F-7B6F01F9615B}.Release|x64.Build.0 = Release|x64
-		{EE2E3E8F-ABE1-4E4F-ACB8-3AFEBD470ED5}.Debug|Win32.ActiveCfg = Debug|Win32
-		{EE2E3E8F-ABE1-4E4F-ACB8-3AFEBD470ED5}.Debug|Win32.Build.0 = Debug|Win32
-		{EE2E3E8F-ABE1-4E4F-ACB8-3AFEBD470ED5}.Debug|x64.ActiveCfg = Debug|x64
-		{EE2E3E8F-ABE1-4E4F-ACB8-3AFEBD470ED5}.Debug|x64.Build.0 = Debug|x64
-		{EE2E3E8F-ABE1-4E4F-ACB8-3AFEBD470ED5}.Release|Win32.ActiveCfg = Release|Win32
-		{EE2E3E8F-ABE1-4E4F-ACB8-3AFEBD470ED5}.Release|Win32.Build.0 = Release|Win32
-		{EE2E3E8F-ABE1-4E4F-ACB8-3AFEBD470ED5}.Release|x64.ActiveCfg = Release|x64
-		{EE2E3E8F-ABE1-4E4F-ACB8-3AFEBD470ED5}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 EndGlobal
