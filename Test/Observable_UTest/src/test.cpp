@@ -47,3 +47,15 @@ TEST(ObservableTest, ClassListenersGetCalled)
 	observable.AddListener(&testClass, &TestClass::Notify);
 	observable.ChangeValue(3);
 }
+
+void faultyListener(int, int)  { throw new std::logic_error("Not implemented!"); }
+void successListener(int, int) { EXPECT_TRUE(true); }
+
+TEST(ObservableTest, ListenersDoNotInfluenceOneAnother)
+{
+	TestClass testClass;
+	Observable<int> observable(2);
+	observable.AddListener(faultyListener);
+	observable.AddListener(successListener);
+	observable.ChangeValue(3);
+}

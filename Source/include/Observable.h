@@ -78,6 +78,18 @@ namespace Codova
         |*   Auxiliaries   *|
         \*=================*/
         
-        void Notify(T from, T to) { for (auto listener : m_listeners) listener->Invoke(from, to); }
+        void Notify(T from, T to) 
+        { 
+            // Iterate over listeners
+            // ----------------------
+            for (auto listener : m_listeners) 
+            {
+                // Decouple listeners
+                // ------------------
+                try         { listener->Invoke(from, to); }
+                catch (...) { std::cout << "[" + listener->GetName() + "]: Crashed!"; }
+            }
+        }
+
     };
 }
