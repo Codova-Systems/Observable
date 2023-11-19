@@ -1,0 +1,6 @@
+C:\Users\Pascal\Desktop\Repo\Products\Codova\Observable\Test\Observable_UTest\x64\Debug\Observable_UTest.vcxproj.CopyComplete
+C:\Users\Pascal\Desktop\Repo\Products\Codova\Observable\Test\Observable_UTest\x64\Debug\Observable_UTest.exe
+C:\Users\Pascal\Desktop\Repo\Products\Codova\Observable\Test\Observable_UTest\x64\Debug\gtestd.dll
+C:\Users\Pascal\Desktop\Repo\Products\Codova\Observable\Test\Observable_UTest\x64\Debug\gtest_maind.dll
+C:\Users\Pascal\Desktop\Repo\Products\Codova\Observable\Test\Observable_UTest\x64\Debug\gtestd.pdb
+C:\Users\Pascal\Desktop\Repo\Products\Codova\Observable\Test\Observable_UTest\x64\Debug\gtest_maind.pdb

@@ -15,7 +15,18 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="TestApp.cpp">
+    <ClInclude Include="include\Listener.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Observable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Dummy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Dummy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
