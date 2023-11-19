@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Observable", "Observable\Observable.vcxproj", "{2B85AF97-09F5-44D4-855F-7B6F01F9615B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Observable", "Source\Observable.vcxproj", "{2B85AF97-09F5-44D4-855F-7B6F01F9615B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Observable_UTest", "..\Test\Observable_UTest\Observable_UTest.vcxproj", "{EE2E3E8F-ABE1-4E4F-ACB8-3AFEBD470ED5}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Observable_UTest", "Test\Observable_UTest\Observable_UTest.vcxproj", "{EE2E3E8F-ABE1-4E4F-ACB8-3AFEBD470ED5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
