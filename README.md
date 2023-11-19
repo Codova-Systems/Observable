@@ -115,3 +115,8 @@ The Observable.h class currently supports three types of Listeners.
 ## License
 
 MIT
+
+## Troubleshooting
+
+If you encounter the following error: LNK1104 could not open gtest_maind.lib" 
+Reinstall the Google Test dependency from nuget.
